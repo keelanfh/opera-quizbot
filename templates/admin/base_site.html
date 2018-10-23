@@ -1,0 +1,16 @@
+{% extends "admin/base_site.html" %}
+
+{% load static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrastyle %}{{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static "css/admin-extra.css" %}"/>{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name">
+        <a class="home-link" href="{% url 'admin:index' %}" alt="Home Page">
+            <img class="logo" src="">
+        </a>
+        <a href="{% url 'admin:index' %}">&nbsp;Chatbot Admin{% if debug %}[DEV]{% endif %}</a></h1>
+{% endblock %}

@@ -1,0 +1,58 @@
+#header {
+    background: white;
+    color: black;
+}
+
+#header a:link {
+    color: black;
+}
+#header a:visited {
+    color: black;
+}
+
+#branding h1 a:link {
+    color: #000000;
+}
+
+#branding h1 a:visited {
+    color: black;
+}
+
+.module caption {
+    background: #ED3645;
+}
+
+.logo {
+    width: 28px;
+    height: auto;
+}
+
+html {
+    background: #F8F8F8;
+}
+
+body {
+    background: #F8F8F8;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.breadcrumbs {
+    background: white;
+    color: black;
+}
+
+div.breadcrumbs a:link {
+    color: black;
+}
+
+div.breadcrumbs a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
